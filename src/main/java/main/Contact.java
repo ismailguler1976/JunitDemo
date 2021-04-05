@@ -36,17 +36,17 @@ public class Contact {
 		this.phoneNumber = phoneNumber;
 	}
 	public void validateName() {
-		if(firstName.isBlank()) {
+		if(firstName == null) {
 			throw new RuntimeException("First name cannot be null or empty");
 		}
 	}
 	public void validateLastName() {
-		if(firstName.isBlank()) {
+		if(firstName == null) {
 			throw new RuntimeException("Last name cannot be null or empty");
 		}
 	}
 	public void validatePhoneNumber() {
-		if(firstName.isBlank()) {
+		if(firstName== null) {
 			throw new RuntimeException("Phone neumber cannot be null or empty");
 		}
 	}
